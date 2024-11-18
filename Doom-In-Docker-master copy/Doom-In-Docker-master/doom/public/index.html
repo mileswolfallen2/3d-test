@@ -43,7 +43,7 @@
             autolock=true
         `);
       fs.extract("doom-box.zip").then(() => {
-        main(["-conf", "dosbox.conf", "-c", "INSTALL.BAT"]).then((ci) => {
+        main(["-conf", "dosbox.conf", "-c", "DOOM.BAT"]).then((ci) => {
             window.ci = ci;
         });
       });
